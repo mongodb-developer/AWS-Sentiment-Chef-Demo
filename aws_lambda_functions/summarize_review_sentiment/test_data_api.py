@@ -4,7 +4,7 @@ import requests
 
 
 def test_data_api():
-    url = "https://us-east-1.aws.data.mongodb-api.com/app/***REMOVED***/endpoint/data/v1/action/findOne"
+    url = "https://us-east-1.aws.data.mongodb-api.com/app/application-0-lmzbw/endpoint/data/v1/action/findOne"
 
     payload = json.dumps(
         {

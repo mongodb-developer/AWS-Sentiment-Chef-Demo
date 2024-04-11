@@ -21,8 +21,6 @@ import { RestaurantsListComponent } from './restaurants-list/restaurants-list.co
 import { RestaurantDetailsComponent } from './restaurant-details/restaurant-details.component';
 import { ReviewFormComponent } from './review-form/review-form.component';
 import { NavbarComponent } from './navbar/navbar.component';
-import { RestaurantsListGuidedComponent } from './restaurants-list-guided/restaurants-list-guided.component';
-import { RestaurantDetailsGuidedComponent } from './restaurant-details-guided/restaurant-details-guided.component';
 
 @NgModule({
   declarations: [
@@ -31,8 +29,6 @@ import { RestaurantDetailsGuidedComponent } from './restaurant-details-guided/re
     RestaurantDetailsComponent,
     ReviewFormComponent,
     NavbarComponent,
-    RestaurantsListGuidedComponent,
-    RestaurantDetailsGuidedComponent,
   ],
   imports: [
     BrowserModule,
@@ -53,7 +49,7 @@ import { RestaurantDetailsGuidedComponent } from './restaurant-details-guided/re
     GuidedTourModule,
   ],
   providers: [
-    provideImgixLoader("https://restaurant-covers.imgix.net/"),
+    provideImgixLoader("***REMOVED***"),
     GuidedTourService,
   ],
   bootstrap: [AppComponent]
